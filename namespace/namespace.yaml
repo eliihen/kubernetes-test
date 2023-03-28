@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: other-namespace
+  labels:
+    name: other-namespace
+  annotations:
+    someAnnotation: "someValue"
